@@ -1,6 +1,25 @@
-<ul class="remote-menu">
-  <li><a routerLink="projects">Projects</a></li>
-  <li><a routerLink="hobby">Hobby</a></li>
-</ul>
-Test Main page
+<mat-toolbar color="primary">
+  <mat-toolbar-row>
+    <span>My own pages</span>
+
+    <a mat-button routerLink="" class="example-icon">
+      <mat-icon>home</mat-icon>
+      Home
+    </a>
+
+    
+
+    <a mat-button routerLink="projects" class="example-icon">
+      <mat-icon>info</mat-icon>
+      Projects
+    </a>
+
+    <a mat-button routerLink="hobby" class="example-icon">
+      <mat-icon>info</mat-icon>
+      Hobby
+    </a>
+
+  </mat-toolbar-row>
+</mat-toolbar>
+
 <router-outlet></router-outlet>

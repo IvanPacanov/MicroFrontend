@@ -22,7 +22,7 @@ export default withModuleFederation(
 
    remotes:[
     ['projects', 'http://localhost:4201/'],
-     ['hobby', 'http://localhost:4202/'],
+    ['hobby', 'http://localhost:4202/'],
    ]
   },
   { dts: false }
